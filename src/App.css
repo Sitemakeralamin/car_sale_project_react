@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  box-shadow: 1px 1px #faf9f9;
+}
+.header_logo
+{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 8%;
+
+}
+.header__tagline
+{
+  font-style: inherit;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+.text-primary{
+  color: #c72931;
+}
+.header__tagline small
+{
+  color: #777;
+  text-transform: lowercase;
+
+}
+.menuIcon ul{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  
+}
+.menuIcon ul li{
+  list-style: none;
+  
+}
+.menuIcon ul li .nav-link
+{
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  
+}
+.menuIcon ul li .nav-link:active{
+  color: #c72931;
+}
+.menuIcon ul li .nav-link:hover{
+  color: #777;
+}
+.header_top
+{
+  display: flex;
+  justify-content: end;
+  margin-right: 10%;
+ 
+  
+}
+.header_top button
+{
+  padding: 0.3rem;
+  border: none;
+  font-size: 12px;
+  
+
+}
+
+.header__top-nav-item {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
+}
