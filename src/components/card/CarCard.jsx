@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CarCard = () => {
-  return <div className="card">
+  return <div className="card shadow mt-2">
   <div className="card-header">
   <img src="./images/1.jpg" alt="" className="card_image"/>
       <h1 className="card-title">Car Reviews</h1>

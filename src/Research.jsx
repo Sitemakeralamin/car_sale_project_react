@@ -1,9 +1,11 @@
 import React from 'react'
+import CommingTemp from './components/commingsoon/CommingTemp'
 
 const Research = () => {
   return (
     <div>
-      Research Page
+      <h1 className="text-center">Welcome, Research Page</h1>
+      <CommingTemp />
     </div>
   )
 }

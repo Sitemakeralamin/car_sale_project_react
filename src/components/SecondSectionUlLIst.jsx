@@ -4,7 +4,8 @@ const SecondSectionUlLIst = () => {
     
   return (
     <>
-    <div className="one_content">
+   
+      <div className="one_content">
      <ul className="second_section_ul">
             <li className="second_section_li"><a href="">Acura <span style={{color:"#777"}}>(3,400)</span></a></li>
             <li className="second_section_li"><a href="">Audi<span style={{color:"#777"}}>(8,400)</span></a></li>
@@ -16,6 +17,9 @@ const SecondSectionUlLIst = () => {
           </ul>
 
           </div>
+     
+
+    
     </>
   )
 }

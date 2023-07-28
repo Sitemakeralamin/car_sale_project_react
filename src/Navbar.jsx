@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return <nav>
     <div className="header_top">
-        <a className="header__top-nav-item">Become a Dealer</a>
-        <a className="header__top-nav-item"><span style={{ color:"red",marginRight:"2px" }}>❤</span>Favorites</a>
-        <a className="header__top-nav-item">🙎‍♂️<span style={{ color:"red" }}>Sign In</span></a>
+        <a className="header__top-nav-item" style={{ color:"#777" }}>Become a Dealer</a>
+        <a className="header__top-nav-item" style={{ color:"#777" }}><span style={{marginRight:"2px" }} className="text-danger">❤</span>Favorites</a>
+        <a className="header__top-nav-item">🙎‍♂️<span className="text-danger">Sign In</span></a>
     </div>
     <div className="menuIcon">
         <ul>

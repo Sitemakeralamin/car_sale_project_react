@@ -8,7 +8,7 @@ const Header = () => {
       <NavLink to="/">
         <img src="./images/logo.png" alt="" className="logo" />
         </NavLink>
-      <h4 className="header__tagline">Search Millions<br/><span className="text-primary">Find Yours</span><br/><small>Welcome to Carsforsale.com<sup>®</sup></small></h4>     
+      <h4 className="header__tagline">Search Millions<br/><span className="text-danger">Find Yours</span><br/><small>Welcome to Carsforsale.com<sup>®</sup></small></h4>     
  
     </div>
     <Navbar />
