@@ -1,13 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 
 const HeroTab = () => {
 
-  const [checkedData,setChecked] =useState(false);
-  
-  useEffect(()=>{
-    setChecked(true);
-  },[])
   return (
     <>
      <div className="container warpper">
