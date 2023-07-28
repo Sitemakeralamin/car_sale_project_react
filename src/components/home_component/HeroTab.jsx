@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
 
 const HeroTab = () => {
+
+  const [checkedData,setChecked] =useState(false);
+  
+  useEffect(()=>{
+    setChecked(true);
+  },[])
   return (
     <>
      <div className="container warpper">
      
-    <input type="radio" id="one" name="group" className="radio" checked/>
+    <input type="radio" id="one" name="group" className="radio"  readOnly checked/>
     <input type="radio" id="two" name="group" className="radio" />
     <input type="radio" id="three" name="group" className="radio" />
     
@@ -21,8 +28,8 @@ const HeroTab = () => {
   <div className="panel" id="one-panel">
     <div className="row">
  <div className="col-md-3">
- <select class="form-select">
-  <option selected>Open this select menu</option>
+ <select className="form-select">
+  <option >Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
@@ -30,47 +37,47 @@ const HeroTab = () => {
  </div>
 
  <div className="col-md-3">
- <select class="form-select">
-  <option selected>Open this select menu</option>
+ <select className="form-select">
+  <option >Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select>
  </div>
  <div className="col-md-3">
- <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
+ <select className="form-select" aria-label="Default select example">
+  <option >Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select>
  </div>
  <div className="col-md-3">
- <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
+ <select className="form-select" aria-label="Default select example">
+  <option >Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select>
  </div>
  <div className="col-md-3 mt-4">
- <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
+ <select className="form-select" aria-label="Default select example">
+  <option >Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select>
  </div>
  <div className="col-md-3 mt-4">
- <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
+ <select className="form-select" aria-label="Default select example">
+  <option >Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select>
  </div>
  <div className="col-md-6 mt-4">
- <button type="button" class="btn btn-danger w-100">Find Yours</button>
+ <button type="button" className="btn btn-danger w-100">Find Yours</button>
  </div>
   </div>
   </div>
